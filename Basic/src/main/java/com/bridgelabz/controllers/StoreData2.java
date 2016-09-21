@@ -29,12 +29,12 @@ public class StoreData2 {
 		Transaction t = session.beginTransaction();
 
 		Employee2 e1 = new Employee2();
-		e1.setId(1001);
+		//e1.setId(1001);
 		e1.setFirstName("Jit");
 		e1.setLastName("Pande");
 
 		Employee2 e2 = new Employee2();
-		e2.setId(1002);
+		//e2.setId(1002);
 		e2.setFirstName("Pooja");
 		e2.setLastName("Singh");
 
